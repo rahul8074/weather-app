@@ -1,0 +1,35 @@
+form{
+    text-align: center;
+    background-color:crimson;
+    padding: 0.5%;
+    box-sizing: border-box;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.67); 
+    
+}
+input{
+    margin: 0px 10px;
+    border: solid aliceblue 1px;
+    border-radius: 4px;
+    border-bottom-style: dotted;
+    padding: 11px 49px;
+    border: dotted crimson 4px;
+   
+}
+footer{
+    background-color: crimson;
+    color:black;
+}
+
+@media only screen and (max-width:1024px){
+    .city,.country{
+        margin: 10px auto ;
+        display: block;
+        width: 80%;
+       
+    }
+    button{
+        width: 50%;
+    }
+}
+ 
+ 
