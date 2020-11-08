@@ -16,8 +16,10 @@ input{
    
 }
 footer{
-    background-color: crimson;
-    color:black;
+    margin-top: 10px;
+    border: hidden 2px;
+    border-radius: 17px;
+    box-shadow: 1px 18px 66px  12px grey;
 }
 
 @media only screen and (max-width:1024px){

@@ -46,10 +46,9 @@ const Weather=({description,city,country,temperature,error})=>{
     return(
     <div className='container' >
     {/* verify true or false */}
-    {<p>{city}</p>}
-    {country && <p>Country:{country} </p>}
-    {temperature && <p>Temperature: {temperature} <span >°C</span></p>}
-    {description && <p>Weather: {description} <i class="fa fa-car" /> </p>}
+    {city && country && <p>{city} , {country }</p>}
+    {temperature && <p id="temp" >{temperature}°C</p>}
+    {description && <p>Status: {description} <i class="fa fa-car" /> </p>}
     {error &&<p> {error}</p>}
     {description&& matchVal()}
     
