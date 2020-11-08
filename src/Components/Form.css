@@ -23,11 +23,10 @@ footer{
    
     position:absolute;
     box-shadow: 1px 18px 44px  5px grey;
-    margin: auto;
+    margin-top: 20px;
     bottom: 0;
-    color:white;
-   font-weight: 500;
-   font-size: larger;
+    color: white;
+   
 }
 button{
     border: hidden 2px;
