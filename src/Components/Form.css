@@ -1,3 +1,7 @@
+body{
+    background-image: url("https://source.unsplash.com/411x823/?rain,raining,rainy");
+     
+}
 form{
     text-align: center;
     padding: 0.5%;
@@ -5,6 +9,7 @@ form{
     
     
 }
+
 input{
      outline: none;
     margin: 0px 10px;
@@ -12,31 +17,33 @@ input{
     padding: 11px 49px;
     border: hidden 2px;
     border-radius: 17px;
-    box-shadow: 1px 18px 48px  1px grey;
+    box-shadow: 1px 18px 80px  1px grey;
 }
 footer{
     margin-top: 10px;
     border: hidden 2px;
     border-radius: 17px;
-    box-shadow: 1px 18px 66px  5px grey;
+    box-shadow: 1px 18px 44px  5px grey;
+    color: white;
 }
 button{
     border: hidden 2px;
    outline:none;
-    border-radius: 27px;
-    box-shadow: 1px 18px 66px  5px grey;
+    border-radius: 50%;
+    box-shadow: 1px 18px 90px  2px grey;
 }
 
 @media only screen and (max-width:1024px){
     .city,.country{
         margin: 10px auto ;
         display: block;
-        width: 80%;
+        width: 95%;
        
     }
     button{
-        width: 50%;
+        width: 80%;
     }
 }
+
  
  

@@ -48,7 +48,7 @@ const Weather=({description,city,country,temperature,error})=>{
     {/* verify true or false */}
     {city && country && <p>{city} , {country }</p>}
     {temperature && <p id="temp" >{temperature}°C</p>}
-    {description && <p>Status: {description} <i class="fa fa-car" /> </p>}
+    {description && <p id="desc" >Status: {description} <i class="fa fa-car" /> </p>}
     {error &&<p> {error}</p>}
     {description&& matchVal()}
     

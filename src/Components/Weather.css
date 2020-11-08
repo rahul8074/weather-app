@@ -14,7 +14,8 @@ div>p{
     margin-top: 20px;
     border: hidden 2px;
     border-radius: 17px;
-    box-shadow: 1px 18px 66px  8px grey;
+    box-shadow: 1px 18px 90px  3px grey;
+    background-color: wheat;
 }
  
 img{
@@ -23,7 +24,10 @@ img{
     border: hidden 1px;
    
     border-radius: 17px;
-    box-shadow: 1px 18px 66px  10px grey;
+    box-shadow: 1px 18px 90px  3px grey;
 }
  
+#desc{
+    color: whitesmoke;
+}
  

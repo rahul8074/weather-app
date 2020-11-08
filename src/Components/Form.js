@@ -16,7 +16,7 @@ const Form=(props)=>{
             placeholder="Country"
             name="country"
             />
-            <button className="btn btn-dark" > <i class="fa fa-search fa-1g"/>  Search </button>
+            <button className="btn btn-secondary" > <i class="fa fa-search fa-1g"/>  Search </button>
         </form>
        
         </>
