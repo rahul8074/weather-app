@@ -15,7 +15,7 @@ const Weather=({description,city,country,temperature,error})=>{
                 console.log(weatherDescription[i],'We Have a match')
                 return (
                 <div  className="image">
-                <img src="../images/cloud.jpg" alt="clouds" />
+                <img src="https://source.unsplash.com/300x256/?cloud,cloudy,clouds" alt="clouds" />
                 </div>
                 );
             }
@@ -24,7 +24,7 @@ const Weather=({description,city,country,temperature,error})=>{
                 return(
                    
                     <div  className="image">
-                     <img src="../images/clear-sky.jpg" alt="clear sky" />
+                     <img src="https://source.unsplash.com/300x256/?sky,clear sky" alt="clear sky" />
                     </div>
                 )
 
@@ -33,7 +33,7 @@ const Weather=({description,city,country,temperature,error})=>{
                 return(
                     
                     <div  className="image">
-                   <img src="../images/rain.jpg" alt="Raining"/>
+                   <img src="https://source.unsplash.com/300x256/?rain,raining,rainy" alt="Raining"/>
                     </div>
                 )
             }
