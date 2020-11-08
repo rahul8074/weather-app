@@ -7,23 +7,23 @@ div>p{
 
 #temp{
    
-    font-size: 160px;
+    font-size: 130px;
     box-sizing: content-box;
     width: fit-content;
     margin: auto;
     margin-top: 20px;
     border: hidden 2px;
     border-radius: 17px;
-    box-shadow: 1px 18px 66px  12px grey;
+    box-shadow: 1px 18px 66px  8px grey;
 }
  
-.image{
+img{
     margin: auto;
     width: fit-content;
-    border: hidden 2px;
+    border: solid 1px;
    
     border-radius: 17px;
-    box-shadow: 1px 18px 66px  12px grey;
+    box-shadow: 1px 18px 66px  10px grey;
 }
  
  

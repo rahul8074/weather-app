@@ -1,25 +1,30 @@
 form{
     text-align: center;
-    background-color:crimson;
     padding: 0.5%;
     box-sizing: border-box;
-    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.67); 
+    
     
 }
 input{
+     outline: none;
     margin: 0px 10px;
     border: solid aliceblue 1px;
-    border-radius: 4px;
-    border-bottom-style: dotted;
     padding: 11px 49px;
-    border: dotted crimson 4px;
-   
+    border: hidden 2px;
+    border-radius: 17px;
+    box-shadow: 1px 18px 48px  1px grey;
 }
 footer{
     margin-top: 10px;
     border: hidden 2px;
     border-radius: 17px;
-    box-shadow: 1px 18px 66px  12px grey;
+    box-shadow: 1px 18px 66px  5px grey;
+}
+button{
+    border: hidden 2px;
+   outline:none;
+    border-radius: 27px;
+    box-shadow: 1px 18px 66px  5px grey;
 }
 
 @media only screen and (max-width:1024px){
