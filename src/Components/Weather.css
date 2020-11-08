@@ -20,7 +20,7 @@ div>p{
 img{
     margin: auto;
     width: fit-content;
-    border: solid 1px;
+    border: hidden 1px;
    
     border-radius: 17px;
     box-shadow: 1px 18px 66px  10px grey;
