@@ -47,7 +47,7 @@ function App() {
   }
   return (
     <div className="App">
-       <h1><i class="fa fa-search" />  My Weather App</h1>
+       <h1><i class="fa fa-bolt" /> <b> FIND WEATHER</b> </h1>
        
      <Form getWeather={fetchData} />
       <Weather
